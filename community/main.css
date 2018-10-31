@@ -1,0 +1,96 @@
+body {
+	background-color: #f0f0f0;
+}
+#navcontainer a { 
+	text-decoration: none;
+}
+#navcontainer {
+	margin-top: -3px;
+}
+div.nav {
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+	padding: 0px;
+	width: 5em;
+	color: #242424;
+	font-size: 1.2em;
+	font-family: Verdana, Arial, sans-serif;
+	border-left: 1px solid #242424;
+	border-right: 1px solid #242424;
+	border-top: 1px solid #242424;
+	background-color: #fff;
+}
+#maincontainer {
+	background-color: #fff;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 15px;
+	padding-left: 1em;
+	padding-right: 2em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border: 1px solid #242424;
+	font: 0.8em Verdana, Arial, sans-serif;
+	clear: both;
+}
+#maincontainer a {
+	color: black;
+	text-decoration: underline;
+}
+#maincontainer input {
+	border: 1px dotted #242424;
+	background-color: #f0f0f0;
+}
+#maincontainer input.failed {
+	border-color: #f00;
+}
+#maincontainer textarea {
+	border: 1px dotted #242424;
+	background-color: #f0f0f0;
+}
+#maincontainer textarea.failed {
+	border-color: #f00;
+}
+#maincontainer td {
+	font: 0.8em Verdana, Arial, sans-serif;
+}
+#notice {
+	margin-top: -1em;
+	font: 0.8em Verdana, Arial, sans-serif;
+	text-align: center;
+}
+.bold {
+	font-weight: bold;
+}
+ul.listrow {
+	clear: both;
+	background-color: #f0f0f0;
+	margin: 0px;
+	padding: 5px;
+	margin-bottom: 2px;
+	height:1.5em;
+	overflow: hidden;
+	white-space: nowrap;
+}
+ul.listrow:hover {
+	background-color: #fff;
+}
+ul.listrow li {
+	display: block;
+	float: right;
+	margin-left: .5em;
+	overflow: hidden;
+	white-space: nowrap;
+}
+ul.listrow li.rowhead {
+	float:left;
+	font-weight: bold;
+	width: 10em;
+	text-align: left;
+}
+ul.listrow li.rowbody {
+	float:left;
+	text-align: left;
+}
